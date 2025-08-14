@@ -1,6 +1,7 @@
 import { AppBar, Box, Container, Icon, IconButton, Toolbar, Typography, Button } from "@mui/material";
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import Link from "next/link";
+import { Height } from "@mui/icons-material";
 
 interface MenuBarProps{
     title: string
@@ -9,10 +10,10 @@ interface MenuBarProps{
 const MenuBar: React.FC<MenuBarProps> = (menuProps) => {
     return (
         <Box >
-            <AppBar sx={{background:'#612940'}}>
-                    <Toolbar>
+            <AppBar position="static" sx={{background:'#612940'}}>
+                    <Toolbar variant="dense">
                         <Link href="/">
-                        <Button sx={{color:'#9D6381'}}>
+                        <Button sx={{color:'#CDA8B8'}}>
                             <HomeRoundedIcon/>
                             <Typography>{menuProps.title}</Typography>
                         </Button>

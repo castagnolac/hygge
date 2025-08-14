@@ -1,22 +1,17 @@
 import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { Post as PostType } from "../Types";
 
-interface Post {
-    id: string;
-    title: string;
-    content: string;
-    image?: string;
-}
-const Post: React.FC<Post> = ({id, title, content, image}) => {
+const PostBox: React.FC<{post: PostType}> = ({post}) => {
     return (
         <Box>
-            <CardMedia image={image} sx={{width: "100%", height: "100%"}}/>
             <Card>
                 <CardContent>
-                <Typography variant="h3">{title}</Typography>
-                <Typography variant="h6">{content}</Typography>
+                <CardMedia image={post.image} sx={{width: "100%", height: "100%"}}/>
+                <Typography variant="h3">{post.title}</Typography>
+                <Typography variant="h6">{post.content}</Typography>
                 </CardContent>
             </Card>
         </Box>
     );
 };
-export default Post;
+export default PostBox;
