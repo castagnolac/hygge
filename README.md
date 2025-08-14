@@ -1,5 +1,48 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Project Description
+Hygge (HOO-guh) is a Nordic word that describes a comforting, cozy feeling or
+quality. In this case, Hygge is a React web app where users can record short entries
+about what made them happy. Life is meant to be cruised
+through and enjoyed, but too often people find themselves on autopilot, stuck in an
+uncomfortable limbo. Hygge will act as a reminder that despite life’s difficulties, positive
+things await those who keep an eye out for them. Hygge is approachable to any
+person who wants to invite more gratitude into their life and could be especially useful to
+those struggling with anxiety and/or depression.
+Developer Note: This is my very first React app, so I have a lot of improvements to make. Please
+feel free to contact me regarding any advice or feedback. Thanks!
+
+## Features
+-Create Posts
+-View Posts
+-Responsive UI
+Limitations: No Post Deletion (yet), Data Storage Local and Non-Functional (for now)
+
+## Technology Stack
+Created using MUI and Next.js
+(MongoDB database using Mongoose planned)
+
+## Demo Video
+(in progress)
+
+## Future Development Roadmap
+Next Update:
+-Post Deletion
+-MongoDB integration using Mongoose
+-Posts can contain images
+-General UI improvements
+-Code Architecture Improvements
+
+Future Updates:
+-Anonymous sharing feature
+-User Credentials
+-Custom Icons
+-Post Tags and Simple Analytics
+
+## Contact Information
+Email: ccastagnola@gmail.com
+github.com/castagnolac
+
 ## Getting Started
 
 First, run the development server:
@@ -16,21 +59,6 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Yay! You have Hygge running. Use the button on the bottom right to make a new post. Posts must have a title and description. 
+Press the "New Post" button to complete the post creation process. You will be guided back to the home page where you can
+now see your new post.
