@@ -14,7 +14,11 @@ feel free to contact me regarding any advice or feedback. Thanks!
 
 ## Features
 -Create Posts
+<img width="1919" height="1079" alt="hygge_newpostpage" src="https://github.com/user-attachments/assets/00040659-9df2-4e0b-8ff7-b4dcb96807a4" />
+
 -View Posts
+<img width="1919" height="1079" alt="hygge_homepage" src="https://github.com/user-attachments/assets/aa103e58-ebbb-46fc-9eeb-1bc2db415d61" />
+
 -Responsive UI
 Limitations: No Post Deletion (yet), Data Storage Local and Non-Functional (for now)
 
@@ -23,7 +27,7 @@ Created using MUI and Next.js
 (MongoDB database using Mongoose planned)
 
 ## Demo Video
-(in progress)
+https://streamable.com/6p1nmx
 
 ## Future Development Roadmap
 Next Update:
